@@ -9,6 +9,9 @@ int main(int argc, const char * argv[]) {
     } else {
         printf ("Big (Motorola) endian system\n");
     }
+
+    printf ("Press enter to quit\n");
+    getchar ();
     return 0;
 }
 
